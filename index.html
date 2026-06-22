@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Reshmiiiiii 💙</title>
+    <meta name="description" content="A special birthday surprise for a wonderful friend, Reshmiiiiii. One year, countless memories.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Twinkling Starfield Background Canvas -->
+    <canvas id="starfield"></canvas>
+
+    <!-- SECTION 1: LOADING SCREEN -->
+    <div id="loading-screen">
+        <div class="loader-content">
+            <span class="loader-text-1">For someone special...</span>
+            <span class="loader-text-2">Reshmiiiiii 💙</span>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN APP WRAPPER -->
+    <main id="app-wrapper">
+
+        <!-- SECTION 2: HERO PAGE -->
+        <section id="hero" class="scroll-section active">
+            <div class="hero-content">
+                <div class="hero-badge">A Friendship Tribute ✨</div>
+                <h1 class="hero-title">Happy Birthday<br><span class="highlight-name">Reshmiiiiii 💙</span></h1>
+                <p class="hero-subtitle">A small surprise for a wonderful friend.</p>
+                <button id="btn-begin" class="btn-primary">
+                    <span>Begin</span>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to start the journey</span>
+                <svg class="chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- SECTION 3: OUR STORY -->
+        <section id="our-story" class="scroll-section">
+            <div class="notebook-container">
+                <!-- Notebook spiral ring illustration -->
+                <div class="notebook-spirals">
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                    <div class="spiral"></div>
+                </div>
+                
+                <div class="notebook-page">
+                    <div class="notebook-header">
+                        <span class="notebook-date">June 18, 2026</span>
+                        <h2 class="notebook-title">How It All Started 📖</h2>
+                    </div>
+                    <div class="notebook-content">
+                        <p class="handwritten">A year ago,</p>
+                        <p class="handwritten indent-1">we were just classmates.</p>
+                        <p class="handwritten indent-2">But this year went like a blink, with a lot of memories.</p>
+                        <p class="handwritten">We played UNO, played many games, talked a lot about many things, and created so many memorable moments together.</p>
+                        <p class="handwritten highlight-text">I will never forget all those moments and memories.</p>
+                        
+                        <!-- Inline Doodles -->
+                        <div class="doodle-container">
+                            <svg class="doodle-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                            <svg class="doodle-stars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <!-- Paper Plane Animation Component -->
+                    <div class="paper-plane-wrapper">
+                        <svg class="paper-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: FUN MEMORIES -->
+        <section id="fun-memories" class="scroll-section">
+            <div class="container">
+                <h2 class="section-title">The Fun Part 😄</h2>
+                
+                <div class="uno-section-card">
+                    <div class="uno-info">
+                        <div class="uno-badge">Interactive Game</div>
+                        <h3>🎮 UNO Champion Moments</h3>
+                        <p>The game that gave us some of our funniest memories. Drag, hover, and toss the cards to shuffle our favorite game!</p>
+                    </div>
+                    
+                    <div class="uno-deck-wrapper">
+                        <!-- 3D Floating UNO Cards Stack -->
+                        <div class="uno-card uno-red" style="--card-index: 0;">
+                            <div class="uno-card-inner">
+                                <div class="card-back">UNO</div>
+                                <div class="card-front">
+                                    <div class="card-number">7</div>
+                                    <div class="card-center-oval">
+                                        <span>7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uno-card uno-blue" style="--card-index: 1;">
+                            <div class="uno-card-inner">
+                                <div class="card-back">UNO</div>
+                                <div class="card-front">
+                                    <div class="card-number">2</div>
+                                    <div class="card-center-oval">
+                                        <span>2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uno-card uno-green" style="--card-index: 2;">
+                            <div class="uno-card-inner">
+                                <div class="card-back">UNO</div>
+                                <div class="card-front">
+                                    <div class="card-number">Skip</div>
+                                    <div class="card-center-oval">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uno-card uno-yellow" style="--card-index: 3;">
+                            <div class="uno-card-inner">
+                                <div class="card-back">UNO</div>
+                                <div class="card-front">
+                                    <div class="card-number">Wild</div>
+                                    <div class="card-center-oval wild-oval">
+                                        <span>+4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: WHAT MAKES YOU SPECIAL -->
+        <section id="special-traits" class="scroll-section">
+            <div class="container">
+                <h2 class="section-title">What Makes You Special 🌟</h2>
+                <p class="section-subtitle">Click on each card to read a short appreciation note</p>
+                
+                <div class="traits-grid">
+                    <!-- Card 1 -->
+                    <div class="trait-card" data-trait="kind" id="trait-card-kind">
+                        <div class="trait-icon">💙</div>
+                        <h3>Kind</h3>
+                        <span class="click-reveal-hint">Reveal Note</span>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="trait-card" data-trait="understanding" id="trait-card-understanding">
+                        <div class="trait-icon">✨</div>
+                        <h3>Understanding</h3>
+                        <span class="click-reveal-hint">Reveal Note</span>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="trait-card" data-trait="smart" id="trait-card-smart">
+                        <div class="trait-icon">📚</div>
+                        <h3>Smart</h3>
+                        <span class="click-reveal-hint">Reveal Note</span>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="trait-card" data-trait="caring" id="trait-card-caring">
+                        <div class="trait-icon">🌸</div>
+                        <h3>Caring</h3>
+                        <span class="click-reveal-hint">Reveal Note</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: WHAT I'LL ALWAYS APPRECIATE -->
+        <section id="appreciation" class="scroll-section">
+            <div class="appreciate-glow-box">
+                <div class="floating-sparkles">
+                    <span class="sparkle sp-1">✨</span>
+                    <span class="sparkle sp-2">⭐</span>
+                    <span class="sparkle sp-3">✨</span>
+                </div>
+                <h2 class="appreciate-title">Something I'll Never Forget 🤝</h2>
+                <div class="appreciate-text">
+                    <p>Whenever someone spoke badly about me,</p>
+                    <p class="accent-text">you never joined them.</p>
+                    <p class="highlight-p">Instead, you supported me.</p>
+                    <p>You understood me and stood by me.</p>
+                    <p class="deep-quote">"That meant more to me than you probably realize."</p>
+                    <p class="conclusion">You are the best person in the world.</p>
+                </div>
+                <!-- Glowing beating heart animation -->
+                <div class="glowing-heart-container">
+                    <div class="heart-pulse-ring"></div>
+                    <svg class="glowing-heart" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: MEMORY GALLERY -->
+        <section id="gallery" class="scroll-section">
+            <div class="container">
+                <h2 class="section-title">Memory Gallery 📸</h2>
+                
+                <div class="polaroid-gallery">
+                    <!-- Polaroid 1 -->
+                    <div class="polaroid-card pt-1" style="--rotation: -4deg;">
+                        <div class="polaroid-img-wrapper">
+                            <img src="images/photo1.jpg" alt="A starry night gallery image" loading="lazy">
+                        </div>
+                        <p class="polaroid-caption">A memory worth keeping 💙</p>
+                    </div>
+                    <!-- Polaroid 2 -->
+                    <div class="polaroid-card pt-2" style="--rotation: 3deg;">
+                        <div class="polaroid-img-wrapper">
+                            <img src="images/photo2.jpg" alt="College books study gallery image" loading="lazy">
+                        </div>
+                        <p class="polaroid-caption">One of my favorite moments ✨</p>
+                    </div>
+                    <!-- Polaroid 3 -->
+                    <div class="polaroid-card pt-3" style="--rotation: -2deg;">
+                        <div class="polaroid-img-wrapper">
+                            <img src="images/photo3.jpg" alt="Glowing blue butterfly gallery image" loading="lazy">
+                        </div>
+                        <p class="polaroid-caption">College days 📚</p>
+                    </div>
+                    <!-- Polaroid 4 -->
+                    <div class="polaroid-card pt-4" style="--rotation: 5deg;">
+                        <div class="polaroid-img-wrapper">
+                            <img src="images/photo4.jpg" alt="Friendship silhouettes gallery image" loading="lazy">
+                        </div>
+                        <p class="polaroid-caption">More memories ahead 🌸</p>
+                    </div>
+                    <!-- Polaroid 5 -->
+                    <div class="polaroid-card pt-5" style="--rotation: -1deg;">
+                        <div class="polaroid-img-wrapper">
+                            <img src="images/photo5.jpg" alt="Cozy memories bedroom gallery image" loading="lazy">
+                        </div>
+                        <p class="polaroid-caption">The story continues... 💙</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: THINGS YOU LOVE -->
+        <section id="things-loved" class="scroll-section">
+            <div class="container">
+                <h2 class="section-title">Things You Love 🎵</h2>
+                
+                <div class="loves-container">
+                    <!-- Love 1: Reading -->
+                    <div class="love-card l-reading">
+                        <div class="love-glow"></div>
+                        <div class="love-card-inner">
+                            <div class="love-icon">📖</div>
+                            <h3>Reading</h3>
+                            <p>Diving into stories and exploring new worlds through the pages of books.</p>
+                            <!-- Pages flipping doodle -->
+                            <div class="page-flip-loader">
+                                <div class="flip-page"></div>
+                                <div class="flip-page"></div>
+                                <div class="flip-page"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Love 2: Dancing -->
+                    <div class="love-card l-dancing">
+                        <div class="love-glow"></div>
+                        <div class="love-card-inner">
+                            <div class="love-icon">💃</div>
+                            <h3>Dancing</h3>
+                            <p>Moving to the rhythm, expressing emotions, and letting go in the music.</p>
+                            <div class="dance-indicator">
+                                <span class="dance-bar d-bar-1"></span>
+                                <span class="dance-bar d-bar-2"></span>
+                                <span class="dance-bar d-bar-3"></span>
+                                <span class="dance-bar d-bar-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Love 3: Music -->
+                    <div class="love-card l-music">
+                        <div class="love-glow"></div>
+                        <div class="love-card-inner">
+                            <div class="love-icon">🎵</div>
+                            <h3>Music</h3>
+                            <p>A soundtrack to every emotion, filling silent moments with beautiful melodies.</p>
+                            <!-- Rising music notes -->
+                            <div class="floating-notes-container">
+                                <span class="f-note fn-1">♪</span>
+                                <span class="f-note fn-2">♫</span>
+                                <span class="f-note fn-3">♬</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: BIRTHDAY LETTER -->
+        <section id="letter-section" class="scroll-section">
+            <div class="container">
+                <h2 class="section-title">Birthday Letter 💌</h2>
+                
+                <div class="envelope-wrapper" id="envelope-interactive">
+                    <div class="envelope">
+                        <div class="envelope-front"></div>
+                        <div class="envelope-flap" id="envelope-flap-btn">
+                            <span class="flap-seal">💙</span>
+                        </div>
+                        
+                        <!-- The letter itself, hidden inside -->
+                        <div class="letter-sheet" id="letter-sheet-content">
+                            <div class="letter-scroll-area">
+                                <p class="letter-greeting">Dear Reshmiiiiii,</p>
+                                <p class="letter-body">Thank you for being such an amazing friend.</p>
+                                <p class="letter-body">In just one year, you've become someone whose presence I truly value.</p>
+                                <p class="letter-body">Your kindness, your understanding nature, and the way you care about people make you special.</p>
+                                <p class="letter-body">One thing I'll never forget is how you've always supported me, especially when others didn't understand me.</p>
+                                <p class="letter-body">I appreciate that more than I can put into words.</p>
+                                <p class="letter-body">I hope this year brings you happiness, success, good health, and countless reasons to smile.</p>
+                                <p class="letter-body">And I'm sure we'll make the upcoming year even better, create more memories, enjoy life more, and have a lot of fun together.</p>
+                                <p class="letter-closing">Happy Birthday 💙</p>
+                                <p class="letter-signature">— sundhip</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="letter-action-indicator">
+                    <button id="btn-open-letter" class="btn-secondary">Open Letter 💌</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: FINAL SURPRISE -->
+        <section id="final-surprise" class="scroll-section">
+            <div class="finale-box">
+                <h2 class="surprise-pre-title">One Last Thing...</h2>
+                <p class="surprise-pre-subtitle">We have reached the end of our small journey, but the celebration has just begun.</p>
+                
+                <button id="btn-final-surprise" class="btn-surprise">
+                    <span>One Last Message ✨</span>
+                </button>
+                
+                <!-- Hidden Final Surprise Card -->
+                <div id="final-card" class="glass-card hidden">
+                    <div class="final-starry-bg"></div>
+                    <div class="final-card-content">
+                        <div class="flower-doodle-left">🌸</div>
+                        <div class="flower-doodle-right">🌸</div>
+                        
+                        <p class="final-quote">"The best part of this year<br>was meeting a friend like you."</p>
+                        
+                        <p class="final-paragraph">Thank you for every laugh, every game, every conversation, and every memory.</p>
+                        
+                        <h3 class="final-birthday-wish">Happy Birthday,<br>Reshmiiiiii 💙</h3>
+                        
+                        <p class="final-footer">Here's to many more memories.</p>
+                        
+                        <!-- Floating Butterfly Animation in Final Card -->
+                        <div class="final-butterfly">🦋</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Traits Detail Modals (Section 5) -->
+    <div id="trait-modal" class="modal-overlay">
+        <div class="modal-card">
+            <button id="btn-close-modal" class="modal-close-btn">&times;</button>
+            <div class="modal-icon" id="modal-trait-icon">💙</div>
+            <h3 class="modal-title" id="modal-trait-title">Trait Title</h3>
+            <div class="modal-divider"></div>
+            <p class="modal-text" id="modal-trait-text">Detailed appreciation note goes here.</p>
+        </div>
+    </div>
+
+    <!-- Background music player (hidden by default, loaded only if requested) -->
+    <audio id="bg-music" loop>
+        <!-- Soft instrumental music source can be added by user -->
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
