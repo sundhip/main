@@ -235,8 +235,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     modalClose.addEventListener('click', closeModal);
+    modalClose.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        closeModal();
+    });
+    
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    modal.addEventListener('touchstart', (e) => {
+        if (e.target === modal) {
+            e.preventDefault();
             closeModal();
         }
     });
